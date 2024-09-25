@@ -1,1 +1,41 @@
- ''u u
+p {
+    margin: 20px;
+}
+
+.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
+
+p.success.feedback {
+    color: pink;
+}
+
+#content  {
+    color: powderblue;
+    padding: 29px;
+}
+
+div .error {
+    color: brown;
+}
+
+a[href="https://www.thenetninja.co.uk"] {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a[href$=".com"] { 
+ color: blueviolet;
+}
+
+div p{
+    color: lightblue;
+    border: 1px solid grey;
+}
